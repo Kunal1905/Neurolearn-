@@ -1,0 +1,111 @@
+{
+  "totalTests": 17,
+  "passed": 16,
+  "failed": 1,
+  "details": [
+    {
+      "name": "Chat GET endpoint",
+      "passed": true,
+      "details": "Returns 401 for unauthenticated requests",
+      "timestamp": "2025-10-09T12:38:41.014Z"
+    },
+    {
+      "name": "Test Chatbot endpoint",
+      "passed": true,
+      "details": "Returns 401 for unauthenticated requests",
+      "timestamp": "2025-10-09T12:38:41.204Z"
+    },
+    {
+      "name": "Unauthenticated POST protection",
+      "passed": true,
+      "details": "Correctly returns 401",
+      "timestamp": "2025-10-09T12:38:41.273Z"
+    },
+    {
+      "name": "Test scenarios endpoint",
+      "passed": false,
+      "details": "Failed to fetch: 401",
+      "timestamp": "2025-10-09T12:38:41.285Z"
+    },
+    {
+      "name": "math subject detection",
+      "passed": true,
+      "details": "Subject area supported",
+      "timestamp": "2025-10-09T12:38:41.285Z"
+    },
+    {
+      "name": "science subject detection",
+      "passed": true,
+      "details": "Subject area supported",
+      "timestamp": "2025-10-09T12:38:41.285Z"
+    },
+    {
+      "name": "language subject detection",
+      "passed": true,
+      "details": "Subject area supported",
+      "timestamp": "2025-10-09T12:38:41.285Z"
+    },
+    {
+      "name": "technology subject detection",
+      "passed": true,
+      "details": "Subject area supported",
+      "timestamp": "2025-10-09T12:38:41.285Z"
+    },
+    {
+      "name": "general subject detection",
+      "passed": true,
+      "details": "Subject area supported",
+      "timestamp": "2025-10-09T12:38:41.285Z"
+    },
+    {
+      "name": "left-brain strategies",
+      "passed": true,
+      "details": "Strategies available for brain type",
+      "timestamp": "2025-10-09T12:38:41.285Z"
+    },
+    {
+      "name": "right-brain strategies",
+      "passed": true,
+      "details": "Strategies available for brain type",
+      "timestamp": "2025-10-09T12:38:41.285Z"
+    },
+    {
+      "name": "balanced-brain strategies",
+      "passed": true,
+      "details": "Strategies available for brain type",
+      "timestamp": "2025-10-09T12:38:41.285Z"
+    },
+    {
+      "name": "Empty message validation",
+      "passed": true,
+      "details": "Returns appropriate error status",
+      "timestamp": "2025-10-09T12:38:41.296Z"
+    },
+    {
+      "name": "Missing message validation",
+      "passed": true,
+      "details": "Returns appropriate error status",
+      "timestamp": "2025-10-09T12:38:41.305Z"
+    },
+    {
+      "name": "Long message validation",
+      "passed": true,
+      "details": "Returns appropriate error status",
+      "timestamp": "2025-10-09T12:38:41.315Z"
+    },
+    {
+      "name": "Invalid data type",
+      "passed": true,
+      "details": "Returns appropriate error status",
+      "timestamp": "2025-10-09T12:38:41.325Z"
+    },
+    {
+      "name": "API response time",
+      "passed": true,
+      "details": "Response time: 9ms (acceptable)",
+      "timestamp": "2025-10-09T12:38:41.334Z"
+    }
+  ],
+  "startTime": "2025-10-09T12:38:39.738Z",
+  "endTime": "2025-10-09T12:38:41.335Z"
+}

@@ -1,0 +1,1 @@
+ALTER TABLE "users" ADD COLUMN "dominant_side" text;
