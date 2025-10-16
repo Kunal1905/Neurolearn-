@@ -212,10 +212,12 @@ export default function App() {
     >
       <Image
         src="/logo.svg"
-        width={260}   // increased size
-        height={140}  // adjust proportionally
+        width={200}
+        height={60}
         alt="NeuroLearn Logo"
-        className="object-contain" // ensures no background/padding
+        className="object-contain h-10 w-auto sm:h-12"
+        priority
+        style={{ backgroundColor: 'transparent' }}
       />
     </div>
 
@@ -247,8 +249,9 @@ export default function App() {
   {mobileMenuOpen && (
     <div className="md:hidden border-t bg-background p-4 space-y-3">
       <div className="pt-3 space-y-2">
-       
-        <Button className="w-full">Get Started</Button>
+        <Button className="w-full" asChild>
+          <Link href="/sign-in">Get Started</Link>
+        </Button>
       </div>
     </div>
   )}
@@ -424,12 +427,11 @@ export default function App() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center" data-animate="fade-up" data-delay="300" id="cta-buttons">
-            <Button size="lg" className="text-lg px-10 py-6 bg-white text-blue-600 hover:bg-gray-100 font-semibold shadow-2xl">
-              Start Free Trial
-              <ChevronRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-10 py-6 border-2 border-white text-white hover:bg-white/10 backdrop-blur-sm">
-              Schedule Demo
+            <Button size="lg" className="text-lg px-10 py-6 bg-white text-blue-600 hover:bg-gray-100 font-semibold shadow-2xl" asChild>
+              <Link href="/sign-up">
+                Start Free Trial
+                <ChevronRight className="ml-2 h-5 w-5" />
+              </Link>
             </Button>
           </div>
         </div>
