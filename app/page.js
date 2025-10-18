@@ -212,10 +212,10 @@ export default function App() {
     >
       <Image
         src="/logo.svg"
-        width={200}
-        height={60}
+        width={300}
+        height={140}
         alt="NeuroLearn Logo"
-        className="object-contain h-10 w-auto sm:h-12"
+        className="object-contain h-12 w-auto sm:h-16"
         priority
         style={{ backgroundColor: 'transparent' }}
       />
